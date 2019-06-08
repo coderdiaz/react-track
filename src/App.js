@@ -8,7 +8,7 @@ const App = () => (<Fragment>
   <Header />
   <main className="main bg-gray p-2">
     <div className="container grid-sm">
-      Welcome to React
+      <p className="p-2">Welcome to React</p>
       <div className="divider"></div>
       <TodoList />
     </div>
