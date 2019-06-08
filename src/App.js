@@ -4,7 +4,11 @@ import Footer from './components/Footer';
 
 const App = () => (<Fragment>
   <Header />
-  <main className="main"></main>
+  <main className="main bg-gray p-2">
+    <div className="container">
+      Welcome to React
+    </div>
+  </main>
   <Footer />
 </Fragment>);
 
