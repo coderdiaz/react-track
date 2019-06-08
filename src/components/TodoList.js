@@ -35,7 +35,9 @@ class TodoList extends Component {
         <button className="btn" onClick={this.saveTask}>Save task</button>
       </div>
       <div className="divider"></div>
-      <p className="text-gray">No tasks</p>
+      {this.state.tasks && this.state.tasks.length > 0 ? this.state.tasks.map((element) => (<div>
+        {element.task}
+      </div>)): <p className="text-gray">No tasks</p>}
     </div>);
   }
 }
